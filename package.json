@@ -1,5 +1,5 @@
 {
-  "name": "julius",
+  "name": "mr-krabs",
   "version": "1.0.0",
   "description": "A package to clear Fargate cluster tasks",
   "main": "src/index.js",
