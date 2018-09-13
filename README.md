@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/pagarme/mr-krab">
+  <a href="https://github.com/pagarme/mr-krabs">
     <img src="https://media.giphy.com/media/yYrYPXatpCMiA/giphy.gif" alt="mr-krabs" >
   </a>
 </p>
@@ -43,9 +43,9 @@ There are basically 2 ways of setting up the intended cluster and service name p
   // UPSCALE
   function upscaleDemoServices () {
     return mrKrabs.listClusters({ clusterName: 'demoCluster' })
-    .then(clusters => 
+    .then(clusters =>
       Promise.all(
-        clusters.map(clusterName => 
+        clusters.map(clusterName =>
           mrKrabs.upScaleAllStoppedServices({ clusterName, serviceName: 'demoServiceName' })
         )
       )
@@ -56,9 +56,9 @@ There are basically 2 ways of setting up the intended cluster and service name p
   // DOWNSCALE
   function downscaleDemoServices () {
     return mrKrabs.listClusters({ clusterName: 'demoCluster' })
-      .then(clusters => 
+      .then(clusters =>
         Promise.all(
-          clusters.map(clusterName => 
+          clusters.map(clusterName =>
             mrKrabs.downScaleAllRuningServices({ clusterName, serviceName: 'demoServiceName' })
           )
         )
