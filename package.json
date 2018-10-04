@@ -11,7 +11,7 @@
     "aws"
   ],
   "author": "Pagar.me Pagamentos S.A.",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "aws-sdk": "2.301.0"
   }
