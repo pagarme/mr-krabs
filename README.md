@@ -8,10 +8,14 @@
 
 > :crab: :moneybag: A package to clear Fargate cluster tasks
 
-## Instalation
+## Installation
 
-1 - Make sure you have your AWS credentials correctly setup
-2 - Install the module `npm i -S https://github.com/pagarme/mr-krabs`
+1. Make sure you have your AWS credentials correctly setup
+
+2. Install the module:
+```
+npm install --save mr-krabs
+```
 
 ## Usage
 
