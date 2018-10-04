@@ -90,3 +90,7 @@ There are basically 2 ways of setting up the intended cluster and service name p
   ```
 
   You can also mix settings by adding either the config file and supplying the config params, just keep in mind that the precendence order respectively function param and `krabs.json`.
+
+  ## License
+
+  mr-krabs is [MIT licensed](./LICENSE).
