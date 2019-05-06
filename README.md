@@ -6,7 +6,7 @@
 
 # mr-krabs
 
-> :crab: :moneybag: A package to clear Fargate cluster tasks
+> :crab: :moneybag: A package to lower your AWS costs
 
 ## Installation
 
