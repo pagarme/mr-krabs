@@ -1,6 +1,6 @@
 {
   "name": "mr-krabs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A package to clear Fargate cluster tasks",
   "homepage": "https://github.com/pagarme/mr-krabs#readme",
   "bugs": "https://github.com/pagarme/mr-krabs/issues",
